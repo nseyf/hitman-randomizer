@@ -1,0 +1,9 @@
+.card:hover {
+  border: 5px solid white;
+  margin: -5px;
+  cursor: pointer;
+}
+
+.card {
+  transition: 0.2s
+}
