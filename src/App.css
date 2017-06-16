@@ -7,3 +7,11 @@
 .card {
   transition: 0.2s
 }
+
+.card:hover h3 {
+  border-bottom: 1px solid white;
+}
+h3 {
+  transition: 1s;
+  display: inline-block
+}

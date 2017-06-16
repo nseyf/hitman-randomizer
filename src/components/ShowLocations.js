@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
-
+import { Locations } from '../data/locationinfo';
 
 export default class ShowLocations extends Component {
 
-  render() {
-    return (
-      <div className="card card-inverse">
-<img className="card-img img-responsive" src="https://cdn-images-1.medium.com/max/800/1*zaw1oQS8P-7WBvsSr3jfiw.jpeg" alt="Card Image" />
-<div className="card-img-overlay">
-<h3 className="card-title">Sapienza</h3>
-<p className="card-text">Testing text</p>
-</div>
-      </div>
+renderLocations(location){
 
+const { name, backgroundImage } = location;
+
+  return (
+    <div className="card card-inverse" style={{display: "inline-block", margin:"15px"}}>
+      <img className="card-img" src="https://psmedia.playstation.com/is/image/psmedia/hitman-screen-06-ps4-eu-22mar16?$TwoColumn_Media$" alt="" />
+      <div className="card-img-overlay">
+        <h3 className="card-title" style={{fontWeight: "bold", letterSpacing: "1px"}}>{name}</h3>
+      </div>
+    </div>
+  )
+}
+
+
+  render() {
+
+    return (
+    <div>
+{Locations.map(this.renderLocations)}
+    </div>
     )
   }
 }
