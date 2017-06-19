@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import { Locations } from '../data/locationinfo';
+import { Link } from 'react-router-dom';
 
 export default class ShowLocations extends Component {
 
 renderLocations(location){
 
 const { name, backgroundImage } = location;
-
   return (
-    <div className="card card-inverse" style={{display: "inline-block", margin:"15px"}}>
-      <img className="card-img" src="https://psmedia.playstation.com/is/image/psmedia/hitman-screen-06-ps4-eu-22mar16?$TwoColumn_Media$" alt="" />
-      <div className="card-img-overlay">
-        <h3 className="card-title" style={{fontWeight: "bold", letterSpacing: "1px"}}>{name}</h3>
-      </div>
+    <Link to={`/${location.name}`} key={location.name}>
+    <div key={name} className="location-cell col-lg-4 col-xs-12 col-md-6" style={{ cursor: "pointer", border: "5px solid white", textAlign: "center", height: "300px"}}>
+      <h2 className="location-title">{name.toUpperCase()}</h2>
     </div>
+  </Link>
   )
 }
 

@@ -1,17 +1,15 @@
-.card:hover {
-  border: 5px solid white;
-  margin: -5px;
-  cursor: pointer;
+.location-cell:hover {
+  background: white;
+  transition: 0.4s;
 }
 
-.card {
-  transition: 0.2s
+.location-cell:hover .location-title {
+  color: #151515;
 }
 
-.card:hover h3 {
-  border-bottom: 1px solid white;
-}
-h3 {
-  transition: 1s;
-  display: inline-block
+.location-title {
+  letter-spacing: 10px;
+  padding-top: 120px;
+  font-weight: 600;
+  color: white;
 }
