@@ -4,7 +4,7 @@ import _ from 'lodash';
 
 export default class Randomizer extends Component {
 
-
+/*
 randomizer(location) {
   const { disguises, weapons } = location;
 return  (
@@ -14,23 +14,29 @@ return  (
   </div>
 )
 }
+*/
 
 renderTarget(target) {
-  const { name } = target
+  const { name } = target;
   return (
-    <div style={{textAlign: "center"}} className="col-xs-12 col-lg-6" key={name}>
-    <h3>{name.toUpperCase()}</h3>
-    <button className="btn btn-primary">Randomize!</button>
+    <div style={{ marginTop: "50px", height: "250px", color: "white", textAlign: "center"}} className="col-xs-12 col-lg-6" key={name}>
+    <h3 style={{letterSpacing: "10px"}}>{name.toUpperCase()}</h3>
     </div>
   )
 }
 
 render() {
+
+ const location = this.props.location.pathname.slice(1);
+ const data = _.find(Locations, { name: location });
+
+
   return (
     <div>
-      {Locations[0].targets.map(this.renderTarget)}
+      {data.targets.map(this.renderTarget)}
+      <button className="btn btn-primary" onClick={this.randomizer}>Randomize</button>
     </div>
   )
-}
 
+}
 }

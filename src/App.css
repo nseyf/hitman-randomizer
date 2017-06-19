@@ -13,3 +13,9 @@
   font-weight: 600;
   color: white;
 }
+
+.title:hover {
+  background: white;
+  color: #151515;
+  transition: 0.5s;
+}
