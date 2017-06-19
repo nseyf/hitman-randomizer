@@ -10,14 +10,15 @@ class App extends Component {
     return (
 <BrowserRouter>
       <div className="container-fluid">
-        <div>
-        <Link to='/'><h3 className="title" style={{
-            marginBottom: "25px",
-            color: "white",
-            padding:"25px",
-            letterSpacing: "10px",
-            display:"inline-block",
-            border: "5px solid white"}}>
+        <div className="page-title">
+        <Link to='/'><h3 className="page-title-text" style={{
+          marginBottom: "25px",
+          color: "white",
+          padding:"25px",
+          letterSpacing: "10px",
+          display:"inline-block",
+          border: "5px solid white"
+          }}>
             HITMAN RANDOMIZER</h3></Link>
         </div>
         <Switch>
