@@ -13,3 +13,20 @@
   font-weight: 600;
   color: white;
 }
+
+.active {
+  background: white;
+  transition: 0.5s;
+  color: #151515;
+  border: 1px solid #151515;
+}
+.active > h3 {
+  color: #151515;
+  text-align: left;
+  border-bottom: 1px solid #151515;
+  transition: 0.5s;
+
+}
+.active > h4 {
+  color: #151515
+}
