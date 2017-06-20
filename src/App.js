@@ -13,11 +13,11 @@ class App extends Component {
         <div className="page-title">
         <Link to='/'><h3 className="page-title-text" style={{
           marginBottom: "25px",
-          color: "white",
+          color: "#F5F5F5",
           padding:"25px",
           letterSpacing: "10px",
           display:"inline-block",
-          border: "5px solid white"
+          border: "5px solid #F5F5F5"
           }}>
             HITMAN RANDOMIZER</h3></Link>
         </div>

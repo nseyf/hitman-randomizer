@@ -1,5 +1,5 @@
 .location-cell:hover {
-  background: white;
+  background: #F5F5F5;
   transition: 0.4s;
 }
 
@@ -11,11 +11,11 @@
   letter-spacing: 10px;
   padding-top: 120px;
   font-weight: 600;
-  color: white;
+  color: #F5F5F5;
 }
 
 .active {
-  background: white;
+  background: #F5F5F5;
   transition: 0.5s;
   color: #151515;
   border: 1px solid #151515;
