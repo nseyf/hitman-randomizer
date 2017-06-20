@@ -4,7 +4,7 @@ export const Locations = [
   {
   name: "Paris",
   backgroundImage: "",
-  targets: [{name: "Viktor Novikov"},{name: "Dalia Margolis"}],
+  targets: [{name: "Viktor Novikov", killedWith: "", whileWearing: ""},{name: "Dalia Margolis", killedWith: "", whileWearing: ""}],
   disguises: [
     "Tuxedo", "Auction Staff Uniform", "Chef Uniform", "CICADA Bodyguard Uniform",
     "Event Crew Uniform", "Helmut Kruger", "Security Guard Uniform", "Sheikh Salman al-Ghazali",
@@ -20,7 +20,7 @@ export const Locations = [
 {
   name: "Sapienza",
   backgroundImage: "",
-  targets: [{name: "Silvio Caruso"},{name: "Francesca De Santis"}],
+  targets: [{name: "Silvio Caruso", killedWith: "", whileWearing: ""},{name: "Francesca De Santis", killedWith: "", whileWearing: ""}],
   disguises: [
     "Italian Suit", "Biolab Security", "Bodyguard", "Bohemian", "Butler", "Church Staff", "Cyclist",
     "Delivery Man", "Oscar Lafayette", "Gardener", "Plumber", "Hazmat Suit", "Housekeeper", "Kitchen Assistant",
@@ -38,7 +38,7 @@ export const Locations = [
 {
   name: "Marrakesh",
   backgroundImage: "",
-  targets: [{name: "Claus Hugo Strandberg"}, {name: "Reza Zaydan"}],
+  targets: [{name: "Claus Hugo Strandberg", killedWith: "", whileWearing: ""}, {name: "Reza Zaydan", killedWith: "", whileWearing: ""}],
   disguises: [
   "Italian Suit", "Biolab Security", "Bodyguard", "Bohemian", "Butler", "Church Staff", "Cyclist",
   "Delivery Man", "Oscar Lafayette", "Gardener", "Plumber", "Hazmat Suit", "Housekeeper", "Kitchen Assistant",
@@ -55,7 +55,7 @@ weapons: [
  {
   name: "Bangkok",
   backgroundImage: "",
-  targets: [{name: "Jordan Cross"},{name: "Ken Morgan"}],
+  targets: [{name: "Jordan Cross", killedWith: "", whileWearing: ""},{name: "Ken Morgan", killedWith: "", whileWearing: ""}],
   disguises: [
   "Casual Suit", "Abel de Silva", "Exterminator", "Groundskeeper", "Hotel Security", "Hotel Staff",
   "Jordan Cross' bodyguard", "Kitchen Staff", "Morgan's Bodyguard", "Recording Crew", "Stalker",
@@ -71,7 +71,7 @@ weapons: [
  {
   name: "Colorado",
   backgroundImage: "",
-  targets: [{name: "Sean Rose"},{name: "Ezra Berg"}, {name: "Penelope Graves"}, {name: "Maya Parvati"}],
+  targets: [{name: "Sean Rose", killedWith: "", whileWearing: ""},{name: "Ezra Berg", killedWith: "", whileWearing: ""}, {name: "Penelope Graves", killedWith: "", whileWearing: ""}, {name: "Maya Parvati", killedWith: "", whileWearing: ""}],
   disguises: [
     "Tactical Gear", "Explosive Specialist", "Hacker", "Militia Cook", "Militia Elite", "Militia Soldier",
     "Militia Spec Ops", "Militia Technician", "Point Man", "Scarecrow"
@@ -86,7 +86,7 @@ weapons: [
 {
   name: "Hokkaido",
   backgroundImage: "",
-  targets: [{name: "Erich Soders"}, {name: "Yuki Yamazaki"}],
+  targets: [{name: "Erich Soders", killedWith: "", whileWearing: ""}, {name: "Yuki Yamazaki", killedWith: "", whileWearing: ""}],
   disguises: [
     "VIP Patient", "Baseball Player", "Bodyguard", "Chef", "Chief Surgeon", "Doctor", "Handyman", "Helicopter Pilot",
     "Hospital Director", "Morgue Doctor", "Motorcyclist", "Patient", "Ninja", "Resort Security", "Resort Staff",
