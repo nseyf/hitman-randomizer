@@ -43,6 +43,7 @@ export const Locations = [
    "Suit", "Bodyguard", "Cameraman", "Consulate Intern", "Consulate Janitor", "Consulate Security", "Elite Soldier", "Food Vendor",
    "Fortune Teller", "Handyman", "Headmaster", "Local Printing Crew", "Masseur", "Military Officer", "Military Soldier", "Prisoner",
    "Shopkeeper", "Waiter"
+
 ],
 weapons: [
   "Bartoli 12G", "Bartoli 75R", "Fusil G1-4", "Fusil G2", "Battle Axe", "Brick", "Cleaver", "Crowbar",

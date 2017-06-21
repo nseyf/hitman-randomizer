@@ -49,7 +49,7 @@ const taskHeadingStyle = {
  return targets.map(target =>
    (
     <div style={{ marginTop: "50px", height: "250px", color: "#F5F5F5", textAlign: "center"}} className={this.state.active ? "col-xs-12 col-lg-6 active" : "col-xs-12 col-lg-6"} key={target.name}>
-    <h3 style={{fontWeight: "600", margin: "0 auto", width:"80%", paddingTop:"25px", paddingBottom: "4px", borderBottom: "3px solid white"}}>{target.name}</h3>
+    <h3 style={{fontWeight: "600", margin: "0 auto", width:"80%", paddingTop:"25px", paddingBottom: "4px", borderBottom: "3px solid white"}}><span style={{fontWeight:"100", fontSize: "20px"}}>Target:</span> {target.name}</h3>
 
   <h4 style={taskStyle}>
     <span style={taskHeadingStyle}>Eliminate Using:</span><br />

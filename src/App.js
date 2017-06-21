@@ -12,7 +12,8 @@ class App extends Component {
       <div className="container-fluid">
         <div className="page-title">
         <Link to='/'><h3 className="page-title-text" style={{
-          marginBottom: "25px",
+            marginTop: "10px",
+            marginBottom: "100px",
           color: "#F5F5F5",
           padding:"25px",
           letterSpacing: "10px",
