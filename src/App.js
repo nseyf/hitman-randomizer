@@ -11,7 +11,7 @@ class App extends Component {
 <BrowserRouter>
       <div className="container-fluid">
         <div className="page-title">
-        <Link to='/'><h3 className="page-title-text" style={{
+        <Link to='/'><h3 style={{
             marginTop: "10px",
             marginBottom: "100px",
           color: "#F5F5F5",
@@ -27,7 +27,7 @@ class App extends Component {
       <Route path='/:location' component={Randomizer} />
             <Route path='/' component= {ShowLocations} />
       </Switch>
-      <a rel="noopener noreferrer" target= "_blank" href="https://github.com/nseyf/hitman-randomizer"><i style={{cursor: "pointer", marginTop: "50px", width: "100%", textAlign: "center", color: "#f5f5f5"}} className="fa fa-3x fa-github" aria-hidden="true"></i></a>
+      <a rel="noopener noreferrer" target= "_blank" href="https://github.com/nseyf/hitman-randomizer"><i style={{cursor: "pointer", marginBottom: "20px", marginTop: "40px", width: "100%", textAlign: "center", color: "#f5f5f5"}} className="fa fa-3x fa-github" aria-hidden="true"></i></a>
       </div>
     </BrowserRouter>
 
