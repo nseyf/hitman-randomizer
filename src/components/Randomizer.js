@@ -71,7 +71,7 @@ render() {
     </div>
     <div style={{textAlign: "center"}}>
     <button style={{
-        background: "#F5F5F5", marginTop: "25px", paddingRight: "5px", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center", letterSpacing: "10px"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>RANDOMIZE</button>
+        fontWeight: "bold", background: "#F5F5F5", marginTop: "25px", paddingRight: "5px", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center", letterSpacing: "10px"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>RANDOMIZE</button>
     </div>
   </div>
   )
