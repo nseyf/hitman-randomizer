@@ -21,31 +21,49 @@ handleClick(e) {
   e.preventDefault();
 
 const newState = Object.assign({}, this.state);
+
 newState.data.targets = newState.data.targets.slice();
+
 newState.data.targets.map(target =>
   target.killedWith = `${_.sample(newState.data.weapons)}`
- )
+);
+
+newState.data.targets.map(target =>
+target.whileWearing = `${_.sample(newState.data.disguises)}`);
+
 newState.active = true;
 
 this.setState(newState);
+
 }
 
 renderTargets(targets) {
+
+const taskStyle = {
+  marginLeft: "10px", fontSize: "25px", fontWeight: "600", margin: "0 auto", paddingTop: "20px", width: "80%", textAlign: "left", color: "#151515"
+}
+const taskHeadingStyle = {
+  fontSize:"20px", fontWeight:"100", marginBottom: "10px"
+}
+
  return targets.map(target =>
    (
     <div style={{ marginTop: "50px", height: "250px", color: "#F5F5F5", textAlign: "center"}} className={this.state.active ? "col-xs-12 col-lg-6 active" : "col-xs-12 col-lg-6"} key={target.name}>
     <h3 style={{fontWeight: "600", margin: "0 auto", width:"80%", paddingTop:"25px", paddingBottom: "4px", borderBottom: "3px solid white"}}>{target.name}</h3>
 
-  <h4 style={{marginLeft: "10px", fontSize: "25px", fontWeight: "600", margin: "0 auto", paddingTop: "20px", width: "80%", textAlign: "left", color: "#151515"}}>
-    <span style={{ fontSize:"20px", fontWeight:"100", marginBottom: "10px"}}>Eliminate Using:</span><br />
+  <h4 style={taskStyle}>
+    <span style={taskHeadingStyle}>Eliminate Using:</span><br />
       {target.killedWith ? target.killedWith : ""}</h4>
+    <h4 style={taskStyle}>
+        <span style={taskHeadingStyle}>Wear Disguise:</span><br />
+          {target.whileWearing ? target.whileWearing : ""}</h4>
 
     </div>
   ) );
 }
 
 render() {
-console.log(this.state);
+
   return (
     <div>
     <div>
