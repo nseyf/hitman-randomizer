@@ -39,39 +39,39 @@ this.setState(newState);
 
 renderTargets(targets) {
 
-const taskStyle = {
-  marginLeft: "10px", fontSize: "25px", fontWeight: "600", margin: "0 auto", paddingTop: "20px", width: "80%", textAlign: "left", color: "#151515"
-}
-const taskHeadingStyle = {
-  fontSize:"20px", fontWeight:"100", marginBottom: "10px"
-}
+const taskStyle = { fontWeight: "600", color: "#151515"}
+
+// #F5F5F5, #151515
 
  return targets.map(target =>
    (
-    <div style={{ marginTop: "50px", height: "250px", color: "#F5F5F5", textAlign: "center"}} className={this.state.active ? "col-xs-12 col-lg-6 active" : "col-xs-12 col-lg-6"} key={target.name}>
-    <h3 style={{fontWeight: "600", margin: "0 auto", width:"80%", paddingTop:"25px", paddingBottom: "4px", borderBottom: "3px solid white"}}><span style={{fontWeight:"100", fontSize: "20px"}}>Target:</span> {target.name}</h3>
-
-  <h4 style={taskStyle}>
-    <span style={taskHeadingStyle}>Eliminate Using:</span><br />
-      {target.killedWith ? target.killedWith : ""}</h4>
-    <h4 style={taskStyle}>
-        <span style={taskHeadingStyle}>Wear Disguise:</span><br />
-          {target.whileWearing ? target.whileWearing : ""}</h4>
-
-    </div>
+     <div className="card" style={{border: "none", background: "#151515"}} key={target.name}>
+       <img className="thumbnail card-img-top" width="100%"  src={target.image} alt=""/>
+       <div className={this.state.active ? "card-block active" : "card-block"} style={{height: "400px"}}>
+<div className="card-block">
+       <h3 style={{fontWeight: "600", color: "#F5F5F5", fontSize: "25px", textAlign: "center"}} className="card-title">{target.name}</h3>
+</div>
+<div className="card-block">
+  <h4 className="card-title" style={taskStyle}>{target.killedWith ? target.killedWith : ""}</h4>
+</div>
+<div className="card-block">
+  <h4 className="card-title" style={taskStyle}>{target.whileWearing ? target.whileWearing : ""}</h4>
+</div>
+     </div>
+   </div>
   ) );
 }
 
 render() {
 
   return (
-    <div>
-    <div>
+  <div className="container">
+    <div className="card-deck">
       {this.renderTargets(this.state.targets)}
     </div>
     <div style={{textAlign: "center"}}>
     <button style={{
-        fontWeight: "bold", background: "#F5F5F5", marginTop: "25px", paddingRight: "5px", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center", letterSpacing: "10px"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>RANDOMIZE</button>
+        fontWeight: "bold", background: "#F5F5F5", marginTop: "25px", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center", letterSpacing: "10px"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>RANDOMIZE</button>
     </div>
   </div>
   )

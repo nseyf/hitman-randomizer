@@ -4,7 +4,7 @@ export const Locations = [
   {
   name: "Paris",
   backgroundImage: "",
-  targets: [{name: "Viktor Novikov", killedWith: "", whileWearing: ""},{name: "Dalia Margolis", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Viktor Novikov", image: require("../img/ViktorNovikov.jpg"), killedWith: "", whileWearing: ""},{name: "Dalia Margolis", image: require("../img/DaliaMargolis.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Tuxedo", "Auction Staff Uniform", "Chef Uniform", "CICADA Bodyguard Uniform",
     "Event Crew Uniform", "Helmut Kruger", "Security Guard Uniform", "Sheikh Salman al-Ghazali",
