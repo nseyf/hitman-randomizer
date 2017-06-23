@@ -25,6 +25,10 @@
   transition: 0.5s;
 
 }
-.active > h4 {
+.active > h3 {
   color: #151515
+}
+
+.card-deck {
+  width: 100%;
 }

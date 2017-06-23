@@ -20,7 +20,7 @@ export const Locations = [
 {
   name: "Sapienza",
   backgroundImage: "",
-  targets: [{name: "Silvio Caruso", killedWith: "", whileWearing: ""},{name: "Francesca De Santis", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Silvio Caruso", image: require("../img/SilvioCaruso.jpg"), killedWith: "", whileWearing: ""},{name: "Francesca De Santis", image: require("../img/FrancescaDeSantis.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Italian Suit", "Biolab Security", "Bodyguard", "Bohemian", "Butler", "Church Staff", "Cyclist",
     "Delivery Man", "Oscar Lafayette", "Gardener", "Plumber", "Hazmat Suit", "Housekeeper", "Kitchen Assistant",
@@ -86,7 +86,7 @@ weapons: [
 {
   name: "Hokkaido",
   backgroundImage: "",
-  targets: [{name: "Erich Soders", killedWith: "", whileWearing: ""}, {name: "Yuki Yamazaki", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Erich Soders", image: require("../img/ErichSoders.jpg"), killedWith: "", whileWearing: ""}, {name: "Yuki Yamazaki", image: require("../img/YukiYamazaki.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "VIP Patient", "Baseball Player", "Bodyguard", "Chef", "Chief Surgeon", "Doctor", "Handyman", "Helicopter Pilot",
     "Hospital Director", "Morgue Doctor", "Motorcyclist", "Patient", "Ninja", "Resort Security", "Resort Staff",
