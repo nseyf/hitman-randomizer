@@ -47,9 +47,9 @@ const taskDescriptorStyle = {fontWeight: "100", fontSize:"20px"};
  return targets.map(target =>
    (
      <div className="card" style={{ border: "none", background: "#151515"}} key={target.name}>
-       <img style={{border: "2px solid #f5f5f5"}}className="img-responsive card-img-top" width="350px"src={target.image} alt=""/>
+       <img style={{  border: "1px solid #f5f5f5"}}className=" img-responsive card-img-top" width= "100%" src={target.image} alt=""/>
        <div className={this.state.active ? "card-block active" : "card-block"} style={{height: "300px"}}>
-          <h3 style={{background: "#F5F5F5", display: "inline-block", padding: "25px", fontWeight: "600", color: "#151515", fontSize: "30px"}} className="card-title">{target.name}</h3>
+          <h3 style={{background: "#F5F5F5", display: "inline-block", padding: "25px", fontWeight: "600", color: "#151515", fontSize: "35px"}} className="card-title">{target.name}</h3>
 
 <div className="card-block">
   <h4 className="card-title" style={taskStyle}><span style={taskDescriptorStyle}>Eliminate Using: </span> <br />{target.killedWith ? target.killedWith : ""}</h4>
@@ -65,13 +65,13 @@ render() {
 
   return (
   <div className="container">
+    <div>
+    <button style={{
+        fontSize: "25px", fontWeight: "600", background: "#F5F5F5", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>Randomize</button>
+    </div>
     <div className="row">
     <div className="card-deck">
       {this.renderTargets(this.state.targets)}
-    </div>
-    <div style={{textAlign: "center"}}>
-    <button style={{
-        fontWeight: "bold", background: "#F5F5F5", marginTop: "25px", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center", letterSpacing: "10px"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>RANDOMIZE</button>
     </div>
   </div>
   </div>

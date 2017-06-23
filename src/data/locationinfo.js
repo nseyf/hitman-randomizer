@@ -38,7 +38,7 @@ export const Locations = [
 {
   name: "Marrakesh",
   backgroundImage: "",
-  targets: [{name: "Claus Hugo Strandberg", killedWith: "", whileWearing: ""}, {name: "Reza Zaydan", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Claus Hugo Strandberg", image: require("../img/ClausHugoStrandberg.jpg"), killedWith: "", whileWearing: ""}, {name: "Reza Zaydan", image: require("../img/RezaZaydan.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
    "Suit", "Bodyguard", "Cameraman", "Consulate Intern", "Consulate Janitor", "Consulate Security", "Elite Soldier", "Food Vendor",
    "Fortune Teller", "Handyman", "Headmaster", "Local Printing Crew", "Masseur", "Military Officer", "Military Soldier", "Prisoner",
@@ -55,7 +55,7 @@ weapons: [
  {
   name: "Bangkok",
   backgroundImage: "",
-  targets: [{name: "Jordan Cross", killedWith: "", whileWearing: ""},{name: "Ken Morgan", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Jordan Cross", image: require("../img/JordanCross.jpg"), killedWith: "", whileWearing: ""},{name: "Ken Morgan", image: require("../img/KenMorgan.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
   "Casual Suit", "Abel de Silva", "Exterminator", "Groundskeeper", "Hotel Security", "Hotel Staff",
   "Jordan Cross' bodyguard", "Kitchen Staff", "Morgan's Bodyguard", "Recording Crew", "Stalker",
@@ -71,7 +71,7 @@ weapons: [
  {
   name: "Colorado",
   backgroundImage: "",
-  targets: [{name: "Sean Rose", killedWith: "", whileWearing: ""},{name: "Ezra Berg", killedWith: "", whileWearing: ""}, {name: "Penelope Graves", killedWith: "", whileWearing: ""}, {name: "Maya Parvati", killedWith: "", whileWearing: ""}],
+  targets: [{name: "Sean Rose", image: require("../img/SeanRose.jpg"), killedWith: "", whileWearing: ""},{name: "Ezra Berg", image: require("../img/EzraBerg.jpg"), killedWith: "", whileWearing: ""}, {name: "Penelope Graves", image: require("../img/PenelopeGraves.jpg"), killedWith: "", whileWearing: ""}, {name: "Maya Parvati", image: require("../img/MayaParvati.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Tactical Gear", "Explosive Specialist", "Hacker", "Militia Cook", "Militia Elite", "Militia Soldier",
     "Militia Spec Ops", "Militia Technician", "Point Man", "Scarecrow"
