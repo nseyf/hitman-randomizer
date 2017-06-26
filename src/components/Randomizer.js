@@ -53,7 +53,7 @@ const taskDescriptorStyle = {fontWeight: "100", color: "#151515"};
      <div className="card" style={{ border: "none", background: "#151515"}} key={target.name}>
        <img style={{ border: "1px solid #f5f5f5"}}className=" img-responsive card-img-top" height="auto" width= "100%" src={target.image} alt=""/>
        <div className={this.state.active ? "card-block active" : "card-block"} style={{height: "400px"}}>
-          <h2 style={{background: "#F5F5F5", display: "inline-block", padding: "25px", fontWeight: "600", color: "#151515"}} className="card-title">{target.name}</h2>
+          <h3 style={{background: "#F5F5F5", display: "inline-block", padding: "25px", fontWeight: "600", color: "#151515"}} className="card-title">{target.name}</h3>
 
 <div className="card-block">
   <h4 className="card-text" style={taskStyle}><span style={taskDescriptorStyle}>Eliminate Using: </span> <br />{target.killedWith ? target.killedWith : ""}</h4>
