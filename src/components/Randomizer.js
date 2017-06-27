@@ -23,6 +23,7 @@ componentDidMount() {
 
 handleClick(e) {
   e.preventDefault();
+window.scrollTo(200,200);
 
 const newState = Object.assign({}, this.state);
 
@@ -71,7 +72,7 @@ render() {
   <div className="container">
     <div className="row">
     <button style={{
-      borderRadius: "none",  fontSize: "25px", fontWeight: "600", background: "#F5F5F5", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>Randomize</button>
+      borderRadius: "0",  fontSize: "25px", fontWeight: "600", background: "#F5F5F5", color: "#151515", marginBottom: "25px", height: "75px", textAlign: "center"}} className="btn btn-primary" onClick={this.handleClick.bind(this)}>Randomize</button>
     </div>
     <div className="row">
     <div className="card-group">
