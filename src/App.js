@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import ShowLocations from './components/ShowLocations';
 import Randomizer from './components/Randomizer';
-import { Link, BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Link, HashRouter, Route, Switch } from 'react-router-dom';
 
 
 class App extends Component {
   render() {
     return (
-<BrowserRouter>
+<HashRouter>
       <div className="container-fluid">
         <div className="page-title">
         <Link to='/'><h3 style={{
@@ -29,7 +29,7 @@ class App extends Component {
       </Switch>
       <a rel="noopener noreferrer" target= "_blank" href="https://github.com/nseyf/hitman-randomizer"><i style={{cursor: "pointer", marginBottom: "20px", marginTop: "40px", width: "100%", textAlign: "center", color: "#f5f5f5"}} className="fa fa-3x fa-github" aria-hidden="true"></i></a>
       </div>
-    </BrowserRouter>
+    </HashRouter>
 
     );
   }
