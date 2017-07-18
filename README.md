@@ -5,3 +5,15 @@ A React app designed to replicate the functionality of "Mexico Rules", an idea f
 Allows a user to randomize win conditions for missions in HITMAN (2016). Images were taken from the HITMAN fan wiki.
 
 Built with React, React Router and Lodash.
+
+Install dependencies:
+
+`$npm install`
+
+To run:
+
+`$ npm start`
+
+To build for deployment:
+
+`$ npm run build`
