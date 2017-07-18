@@ -8,7 +8,7 @@ Built with React, React Router and Lodash.
 
 Install dependencies:
 
-`$npm install`
+`$ npm install`
 
 To run:
 
