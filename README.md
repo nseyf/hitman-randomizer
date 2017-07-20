@@ -1,4 +1,4 @@
-# hitman-randomizer
+# Hitman Randomiser
 
 [View Live](https://nseyf.github.io/hitman-randomizer)
 
