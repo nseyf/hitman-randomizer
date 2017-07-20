@@ -27,7 +27,7 @@ class App extends Component {
       <Route path='/:location' component={Randomizer} />
             <Route path='/' component= {ShowLocations} />
       </Switch>
-      t<i style={{cursor: "pointer", marginBottom: "20px", marginTop: "40px", width: "100%", textAlign: "center", color: "#f5f5f5"}} className="fa fa-3x fa-github" aria-hidden="true"></i></a>
+      <a><i style={{cursor: "pointer", marginBottom: "20px", marginTop: "40px", width: "100%", textAlign: "center", color: "#f5f5f5"}} className="fa fa-3x fa-github" aria-hidden="true"></i></a>
       </div>
     </HashRouter>
 
