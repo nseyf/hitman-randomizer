@@ -1,0 +1,2 @@
+.location-cell:hover{background:#f5f5f5;-webkit-transition:.4s;-o-transition:.4s;transition:.4s}.location-cell:hover .location-title{color:#151515}.location-title{letter-spacing:10px;padding-top:120px;font-weight:600;color:#f5f5f5}.active{background:#f5f5f5}.active,.active .card-title{-webkit-transition:.5s;-o-transition:.5s;transition:.5s;color:#151515}.active .card-title{text-align:left}.active>h3{color:#151515}.card-deck{width:100%}body{margin:0;padding:0;font-family:sans-serif}
+/*# sourceMappingURL=main.e3a895fc.css.map*/
