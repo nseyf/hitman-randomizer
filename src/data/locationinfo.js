@@ -3,7 +3,6 @@ export const Locations = [
 //Paris
   {
   name: "Paris",
-  backgroundImage: "",
   targets: [{name: "Viktor Novikov", image: require("../img/ViktorNovikov.jpg"), killedWith: "", whileWearing: ""},{name: "Dalia Margolis", image: require("../img/DaliaMargolis.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Tuxedo", "Auction Staff Uniform", "Chef Uniform", "CICADA Bodyguard Uniform",
@@ -19,7 +18,6 @@ export const Locations = [
 // Sapienza
 {
   name: "Sapienza",
-  backgroundImage: "",
   targets: [{name: "Silvio Caruso", image: require("../img/SilvioCaruso.jpg"), killedWith: "", whileWearing: ""},{name: "Francesca De Santis", image: require("../img/FrancescaDeSantis.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Italian Suit", "Biolab Security", "Bodyguard", "Bohemian", "Butler", "Church Staff", "Cyclist",
@@ -37,7 +35,6 @@ export const Locations = [
 //Marrakesh
 {
   name: "Marrakesh",
-  backgroundImage: "",
   targets: [{name: "Claus Hugo Strandberg", image: require("../img/ClausHugoStrandberg.jpg"), killedWith: "", whileWearing: ""}, {name: "Reza Zaydan", image: require("../img/RezaZaydan.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
    "Suit", "Bodyguard", "Cameraman", "Consulate Intern", "Consulate Janitor", "Consulate Security", "Elite Soldier", "Food Vendor",
@@ -54,7 +51,6 @@ weapons: [
 // Bangkok
  {
   name: "Bangkok",
-  backgroundImage: "",
   targets: [{name: "Jordan Cross", image: require("../img/JordanCross.jpg"), killedWith: "", whileWearing: ""},{name: "Ken Morgan", image: require("../img/KenMorgan.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
   "Casual Suit", "Abel de Silva", "Exterminator", "Groundskeeper", "Hotel Security", "Hotel Staff",
@@ -70,7 +66,6 @@ weapons: [
 // Colorado
  {
   name: "Colorado",
-  backgroundImage: "",
   targets: [{name: "Sean Rose", image: require("../img/SeanRose.jpg"), killedWith: "", whileWearing: ""},{name: "Ezra Berg", image: require("../img/EzraBerg.jpg"), killedWith: "", whileWearing: ""}, {name: "Penelope Graves", image: require("../img/PenelopeGraves.jpg"), killedWith: "", whileWearing: ""}, {name: "Maya Parvati", image: require("../img/MayaParvati.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "Tactical Gear", "Explosive Specialist", "Hacker", "Militia Cook", "Militia Elite", "Militia Soldier",
@@ -85,7 +80,6 @@ weapons: [
 // Hokkaido
 {
   name: "Hokkaido",
-  backgroundImage: "",
   targets: [{name: "Erich Soders", image: require("../img/ErichSoders.jpg"), killedWith: "", whileWearing: ""}, {name: "Yuki Yamazaki", image: require("../img/YukiYamazaki.jpg"), killedWith: "", whileWearing: ""}],
   disguises: [
     "VIP Patient", "Baseball Player", "Bodyguard", "Chef", "Chief Surgeon", "Doctor", "Handyman", "Helicopter Pilot",
