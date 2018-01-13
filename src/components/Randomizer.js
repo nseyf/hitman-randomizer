@@ -107,7 +107,7 @@ renderTargets(targets) {
                               Eliminate Using:
                               </span>
                               <br />
-                              target.killedWith ? target.killedWith : ""}
+                              { target.killedWith ? target.killedWith : ""}
                               </h4>
 
              <h4 className="card-text"
@@ -117,7 +117,7 @@ renderTargets(targets) {
                  Wear Disguise:
                  </span>
                  <br />
-                 {target.whileWearing ? target.whileWearing : ""}
+                 { target.whileWearing ? target.whileWearing : ""}
             </h4>
         </div>
     </div>
