@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://nseyf.github.io/hitman-randomizer",
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "gh-pages": "^1.1.0",
